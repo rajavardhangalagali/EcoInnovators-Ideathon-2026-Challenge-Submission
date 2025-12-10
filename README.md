@@ -25,8 +25,8 @@ Government-ready solar panel detection system using YOLOv8 with automated satell
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd solar
+git clone https://github.com/rajavardhangalagali/EcoInnovators-Ideathon-2026-Challenge-Submission.git
+cd EcoInnovators-Ideathon-2026-Challenge-Submission
 
 # Create virtual environment (recommended)
 python -m venv .venv

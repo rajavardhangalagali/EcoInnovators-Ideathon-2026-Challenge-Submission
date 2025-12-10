@@ -22,12 +22,12 @@ ENV/
 # Jupyter
 .ipynb_checkpoints/
 
-# Model files (large)
+# Model files (large) - Keep trained model
+!models/yolov8_solar/weights/best.pt  # Keep only the final trained model
 *.pt
 *.pth
 *.h5
 *.pkl
-!models/yolov8_solar/weights/best.pt  # Keep only the final trained model
 
 # Data (large files)
 data/**/*.jpg
