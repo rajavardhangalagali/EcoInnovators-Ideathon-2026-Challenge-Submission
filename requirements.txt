@@ -1,0 +1,32 @@
+# Core ML and Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+openpyxl>=3.1.0  # For .xlsx file support
+scikit-image>=0.21.0
+
+# Geospatial
+geopy>=2.3.0
+
+# Visualization and reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Configuration and utilities
+pyyaml>=6.0
+tqdm>=4.65.0
+click>=8.1.0
+
+# Optional: for advanced satellite imagery
+# rasterio>=1.3.0
+# geopandas>=0.13.0
+
+# Production-ready: Satellite image verification (optional)
+requests>=2.31.0  # For satellite API calls
+scikit-image>=0.21.0  # For SSIM image comparison

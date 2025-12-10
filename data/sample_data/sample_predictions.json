@@ -1,0 +1,190 @@
+[
+  {
+    "sample_id": "SITE_001",
+    "lat": 37.7749,
+    "lon": -122.4194,
+    "has_solar": true,
+    "confidence": 0.87,
+    "pv_area_sqm_est": 45.3,
+    "buffer_radius_sqft": 1200,
+    "panel_count_est": 2,
+    "capacity_kw_est": 8.6,
+    "qc_status": "VERIFIABLE",
+    "qc_notes": [],
+    "bbox_or_mask": "outputs/overlays/SITE_001_overlay.png",
+    "timestamp": "2025-12-07T10:30:00Z",
+    "metadata": {
+      "satellite_source": "ESRI_ArcGIS_World_Imagery",
+      "satellite_zoom": 19,
+      "satellite_resolution": "30cm-1m",
+      "detection_model": "yolov8n_solar",
+      "model_version": "1.0",
+      "qc_reason_codes": [],
+      "image_quality_metrics": {
+        "sharpness": 125.4,
+        "brightness": 0.62,
+        "contrast": 0.38,
+        "cloud_fraction": 0.05,
+        "noise_level": 0.12,
+        "resolution_score": 1.0
+      },
+      "detection_quality_metrics": {
+        "max_confidence": 0.87,
+        "mean_confidence": 0.82,
+        "panel_count": 2,
+        "total_area_sqm": 45.3
+      }
+    }
+  },
+  {
+    "sample_id": "SITE_002",
+    "lat": 34.0522,
+    "lon": -118.2437,
+    "has_solar": false,
+    "confidence": 0.15,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 1200,
+    "panel_count_est": 0,
+    "capacity_kw_est": 0.0,
+    "qc_status": "VERIFIABLE",
+    "qc_notes": [],
+    "bbox_or_mask": "outputs/overlays/SITE_002_overlay.png",
+    "timestamp": "2025-12-07T10:30:15Z",
+    "metadata": {
+      "satellite_source": "ESRI_ArcGIS_World_Imagery",
+      "satellite_zoom": 19,
+      "satellite_resolution": "30cm-1m",
+      "detection_model": "yolov8n_solar",
+      "model_version": "1.0",
+      "qc_reason_codes": [],
+      "image_quality_metrics": {
+        "sharpness": 98.7,
+        "brightness": 0.58,
+        "contrast": 0.41,
+        "cloud_fraction": 0.02,
+        "noise_level": 0.09,
+        "resolution_score": 1.0
+      },
+      "detection_quality_metrics": {
+        "max_confidence": 0.15,
+        "mean_confidence": 0.0,
+        "panel_count": 0,
+        "total_area_sqm": 0.0
+      }
+    }
+  },
+  {
+    "sample_id": "SITE_003",
+    "lat": 40.7128,
+    "lon": -74.0060,
+    "has_solar": true,
+    "confidence": 0.72,
+    "pv_area_sqm_est": 28.6,
+    "buffer_radius_sqft": 1200,
+    "panel_count_est": 1,
+    "capacity_kw_est": 5.4,
+    "qc_status": "VERIFIABLE",
+    "qc_notes": [],
+    "bbox_or_mask": "outputs/overlays/SITE_003_overlay.png",
+    "timestamp": "2025-12-07T10:30:30Z",
+    "metadata": {
+      "satellite_source": "ESRI_ArcGIS_World_Imagery",
+      "satellite_zoom": 19,
+      "satellite_resolution": "30cm-1m",
+      "detection_model": "yolov8n_solar",
+      "model_version": "1.0",
+      "qc_reason_codes": [],
+      "image_quality_metrics": {
+        "sharpness": 110.2,
+        "brightness": 0.55,
+        "contrast": 0.35,
+        "cloud_fraction": 0.08,
+        "noise_level": 0.11,
+        "resolution_score": 1.0
+      },
+      "detection_quality_metrics": {
+        "max_confidence": 0.72,
+        "mean_confidence": 0.72,
+        "panel_count": 1,
+        "total_area_sqm": 28.6
+      }
+    }
+  },
+  {
+    "sample_id": "SITE_004",
+    "lat": 33.4484,
+    "lon": -112.0740,
+    "has_solar": false,
+    "confidence": 0.42,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 1200,
+    "panel_count_est": 0,
+    "capacity_kw_est": 0.0,
+    "qc_status": "NOT_VERIFIABLE",
+    "qc_notes": ["CLOUD_OCCLUSION", "LOW_CONFIDENCE"],
+    "bbox_or_mask": "outputs/overlays/SITE_004_overlay.png",
+    "timestamp": "2025-12-07T10:30:45Z",
+    "metadata": {
+      "satellite_source": "ESRI_ArcGIS_World_Imagery",
+      "satellite_zoom": 19,
+      "satellite_resolution": "30cm-1m",
+      "detection_model": "yolov8n_solar",
+      "model_version": "1.0",
+      "qc_reason_codes": [
+        "CLOUD_OCCLUSION",
+        "LOW_CONFIDENCE"
+      ],
+      "image_quality_metrics": {
+        "sharpness": 45.3,
+        "brightness": 0.78,
+        "contrast": 0.22,
+        "cloud_fraction": 0.52,
+        "noise_level": 0.18,
+        "resolution_score": 1.0
+      },
+      "detection_quality_metrics": {
+        "max_confidence": 0.42,
+        "mean_confidence": 0.0,
+        "panel_count": 0,
+        "total_area_sqm": 0.0
+      }
+    }
+  },
+  {
+    "sample_id": "SITE_005",
+    "lat": 32.7157,
+    "lon": -117.1611,
+    "has_solar": true,
+    "confidence": 0.91,
+    "pv_area_sqm_est": 67.8,
+    "buffer_radius_sqft": 1200,
+    "panel_count_est": 3,
+    "capacity_kw_est": 12.9,
+    "qc_status": "VERIFIABLE",
+    "qc_notes": [],
+    "bbox_or_mask": "outputs/overlays/SITE_005_overlay.png",
+    "timestamp": "2025-12-07T10:31:00Z",
+    "metadata": {
+      "satellite_source": "ESRI_ArcGIS_World_Imagery",
+      "satellite_zoom": 19,
+      "satellite_resolution": "30cm-1m",
+      "detection_model": "yolov8n_solar",
+      "model_version": "1.0",
+      "qc_reason_codes": [],
+      "image_quality_metrics": {
+        "sharpness": 142.8,
+        "brightness": 0.60,
+        "contrast": 0.43,
+        "cloud_fraction": 0.01,
+        "noise_level": 0.08,
+        "resolution_score": 1.0
+      },
+      "detection_quality_metrics": {
+        "max_confidence": 0.91,
+        "mean_confidence": 0.88,
+        "panel_count": 3,
+        "total_area_sqm": 67.8
+      }
+    }
+  }
+]

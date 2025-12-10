@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files (large)
+*.pt
+*.pth
+*.h5
+*.pkl
+!models/yolov8_solar/weights/best.pt  # Keep only the final trained model
+
+# Data (large files)
+data/**/*.jpg
+data/**/*.png
+data/**/*.jpeg
+data/**/*.tif
+data/**/*.tiff
+!data/sample_data/*.csv  # Keep sample CSV files
+!data/sample_data/*.xlsx  # Keep sample Excel files
+!data/sample_data/*.json  # Keep sample JSON files
+
+# Outputs
+outputs/**/*
+!outputs/.gitkeep
+!outputs/README.md
+
+# Training runs
+runs/
+!runs/.gitkeep
+
+# Cache
+*.cache
+.cache/
+cache/satellite_images/**/*
+!cache/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+data/input/uploads/*
+
+# Old dataset folders (can be removed)
+Solar_Panel.v*/
+
+# Virtual Environment (additional patterns)
+.venv/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+

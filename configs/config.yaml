@@ -1,0 +1,47 @@
+model:
+  yolo_model_path: models\yolov8_solar\weights\best.pt
+  confidence_threshold: 0.25
+  iou_threshold: 0.45
+  device: auto
+detection:
+  buffer_meters: 20
+  min_confidence_has_solar: 0.6
+  min_confidence_no_solar: 0.75
+quantification:
+  watts_per_sqm: 190
+  meters_per_pixel: 0.3
+  min_panel_area_sqm: 1.0
+qc:
+  min_resolution: 100
+  max_cloud_fraction: 0.4
+  min_roof_visibility: 0.6
+output:
+  overlay_format: png
+  save_overlays: true
+  save_individual_jsons: true
+  batch_results_file: batch_results.json
+reason_codes:
+  verifiable:
+  - distinct module grid
+  - rectilinear array
+  - racking shadows
+  - clear roof view
+  - high confidence detection
+  - partial visibility acceptable
+  - oblique angle detection
+  - color variation handled
+  not_verifiable:
+  - low-resolution imagery
+  - heavy cloud/occlusion
+  - partial roof view
+  - conflicting signals
+  - poor image quality
+  - image_location_mismatch
+  - extreme shadows on sloped roof
+  - panel orientation unclear
+production:
+  enable_satellite_verification: false
+  satellite_provider: esri
+  satellite_api_key: null
+  verification_threshold: 0.7
+  verification_method: ssim
